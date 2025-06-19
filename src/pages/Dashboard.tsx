@@ -85,7 +85,7 @@ const Dashboard = () => {
       instructor: "Sarah Johnson",
       courseHours: 24,
       grade: "A+",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop"
+      image: "https://i.ytimg.com/vi/Pyv0tMm5i_w/maxresdefault.jpg"
     },
     {
       id: 2,
@@ -94,7 +94,7 @@ const Dashboard = () => {
       instructor: "Dr. Michael Chen",
       courseHours: 18,
       grade: "A",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop"
+      image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230318230239/Python-Data-Science-Tutorial.jpg"
     },
     {
       id: 3,
@@ -103,7 +103,7 @@ const Dashboard = () => {
       instructor: "Alex Rodriguez",
       courseHours: 32,
       grade: "A+",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop"
+      image: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/310914436/original/d056a443bda9716a2d42b67b18ef36b4647b52f6/develop-your-custom-website-with-nextjs-react-html.png"
     },
     {
       id: 4,
@@ -112,7 +112,7 @@ const Dashboard = () => {
       instructor: "Dr. Michael Chen",
       courseHours: 28,
       grade: "A",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop"
+      image: "https://www.studytrigger.com/wp-content/uploads/2023/02/Java-Programming-Course-study-trigger.jpg"
     },
     {
       id: 5,
@@ -121,7 +121,7 @@ const Dashboard = () => {
       instructor: "Sarah Johnson",
       courseHours: 40,
       grade: "A+",
-      image: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=400&h=300&fit=crop"
+      image: "https://wallpaperaccess.com/full/3209833.jpg"
     },
     {
       id: 6,
@@ -130,7 +130,7 @@ const Dashboard = () => {
       instructor: "Dr. Emily Watson",
       courseHours: 35,
       grade: "A",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop"
+      image: "https://www.xavor.com/wp-content/uploads/2023/02/Flutter-App-Development.jpg"
     },
     {
       id: 7,
@@ -139,7 +139,7 @@ const Dashboard = () => {
       instructor: "David Park",
       courseHours: 25,
       grade: "A+",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop"
+      image: "https://online-courses.club/wp-content/uploads/2021/08/Udemy-C-Fundamentals-Game-Programming-For-Beginners.png"
     },
     {
       id: 8,
