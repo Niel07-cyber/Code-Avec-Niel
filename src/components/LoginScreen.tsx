@@ -95,16 +95,16 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900 transition-colors duration-300">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-blue-900 transition-colors duration-300">
       {/* Header */}
       <header className="px-6 py-4 relative z-10">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="relative">
               <Code2 className="h-8 w-8 text-blue-600 dark:text-blue-400" />
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full animate-pulse"></div>
+              {/* <div className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-blue-400 to-pink-400 rounded-full animate-pulse"></div> */}
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-blue-600 to-indigo-600 dark:from-blue-400 dark:via-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-blue-600 to-blue-600 dark:from-blue-400 dark:via-blue-400 dark:to-blue-400 bg-clip-text text-transparent">
               CodewithNiel
             </span>
           </div>
@@ -117,7 +117,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
               className="rounded-full w-10 h-10 p-0"
             >
               {isDarkMode ? (
-                <Sun className="h-5 w-5 text-yellow-500" />
+                <Sun className="h-5 w-5 text-blue-500" />
               ) : (
                 <Moon className="h-5 w-5 text-gray-600" />
               )}
@@ -140,7 +140,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
             {/* Left Side - Hero Content */}
             <div className="lg:col-span-7 space-y-8">
               <div className="space-y-6">
-                <Badge className="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-blue-900/50 text-blue-700 dark:text-white-300 border-none">
+                <Badge className="bg-gradient-to-r from-blue-100 to-blue-100 dark:from-blue-900/50 dark:to-blue-900/50 text-blue-700 dark:text-white-300 border-none">
                   <Zap className="h-3 w-3 mr-1" />
                   Join 50,000+ developers worldwide
                 </Badge>
@@ -148,7 +148,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                   <span className="text-gray-900 dark:text-white">Code Your</span>
                   <br />
-                  <span className="bg-gradient-to-r from-blue-600 via-green-600 to-blue-600 dark:from-blue-400 dark:via-green-400 dark:to-indigo-400 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-blue-600 via-blue-600 to-blue-600 dark:from-blue-400 dark:via-blue-400 dark:to-blue-400 bg-clip-text text-transparent">
                     Future Today
                   </span>
                 </h1>
@@ -182,15 +182,15 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-8 pt-8">
                 <div className="text-center">
-                  <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">50K+</div>
+                  <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent mb-2">50K+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Active Students</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-green-600 bg-clip-text text-transparent mb-2">500+</div>
+                  <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent mb-2">500+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Expert Courses</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent mb-2">95%</div>
+                  <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent mb-2">95%</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Success Rate</div>
                 </div>
               </div>
@@ -293,7 +293,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
 
                       <Button 
                         type="submit" 
-                        className="w-full h-12 bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-green-700 text-white font-medium rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+                        className="w-full h-12 bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-blue-700 text-white font-medium rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
                       >
                         {isLogin ? "Sign In" : "Create Account"}
                       </Button>

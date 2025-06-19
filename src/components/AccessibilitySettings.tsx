@@ -43,7 +43,7 @@ export const AccessibilitySettings = () => {
     { id: "light", name: "Light", preview: "bg-white border-gray-200" },
     { id: "dark", name: "Dark", preview: "bg-gray-900 border-gray-700" },
     { id: "high-contrast", name: "High Contrast", preview: "bg-black border-white" },
-    { id: "blue", name: "Blue Theme", preview: "bg-blue-50 border-blue-200" }
+    { id: "blue", name: "blue Theme", preview: "bg-blue-50 border-blue-200" }
   ];
 
   return (
@@ -275,11 +275,11 @@ export const AccessibilitySettings = () => {
                 ))}
               </div>
 
-              <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-900/30 rounded-lg">
-                <h4 className="text-sm font-semibold text-yellow-900 dark:text-yellow-200 mb-2">
+              <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
+                <h4 className="text-sm font-semibold text-blue-900 dark:text-blue-200 mb-2">
                   Translation Status
                 </h4>
-                <div className="space-y-1 text-xs text-yellow-800 dark:text-yellow-300">
+                <div className="space-y-1 text-xs text-blue-800 dark:text-blue-300">
                   <div>🟢 English: 100% complete</div>
                   <div>🟢 Spanish: 98% complete</div>
                   <div>🟡 French: 85% complete</div>

@@ -93,7 +93,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with 3D and Animations */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900 transition-colors duration-300">
+      <section className="relative overflow-hidden bg-gradient-to-br from-blue-400 via-blue-400 to-blue-400 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900 transition-colors duration-300">
         <FloatingElements />
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
@@ -150,7 +150,7 @@ const Index = () => {
                   </Button>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-green/10">
+                  <Button size="lg" variant="outline" className="border-white text-black hover:bg-green/10 dark:text-white">
                     Browse Courses
                   </Button>
                 </motion.div>
@@ -452,11 +452,11 @@ const Index = () => {
       </section>
 
       {/* CTA Section with Animation */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-green-600 relative overflow-hidden">
+      <section className="py-16 bg-muted ">
         <FloatingElements />
-        <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 ">
           <motion.h2 
-            className="text-4xl font-bold text-white mb-4"
+            className="text-4xl font-bold text-black mb-4 dark:text-white"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -465,7 +465,7 @@ const Index = () => {
             Ready to Start Your Journey?
           </motion.h2>
           <motion.p 
-            className="text-xl text-blue-100 mb-8"
+            className="text-xl text-blue-500 mb-8"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}

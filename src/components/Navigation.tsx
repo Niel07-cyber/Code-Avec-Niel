@@ -148,7 +148,7 @@ export const Navigation = ({ onLogout }: NavigationProps) => {
               <Code2 className="h-6 w-6 sm:h-8 sm:w-8 text-blue-600 dark:text-blue-400 group-hover:text-blue-700 dark:group-hover:text-blue-300 transition-colors" />
               <div className="absolute -top-1 -right-1 w-2 h-2 sm:w-3 sm:h-3 bg-gradient-to-r from-white-400 to-white-400 rounded-full animate-pulse"></div>
             </div>
-            <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-green-600 to-blue-600 dark:from-green-400 dark:to-blue-400 bg-clip-text text-transparent">
+            <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400 bg-clip-text text-transparent">
               CodewithNiel
             </span>
           </Link>
@@ -210,7 +210,7 @@ export const Navigation = ({ onLogout }: NavigationProps) => {
           <div className="hidden md:flex items-center space-x-2 lg:space-x-4">
             <Button variant="ghost" size="sm" onClick={toggleDarkMode} className="relative">
               {isDarkMode ? (
-                <Sun className="h-4 w-4 text-yellow-500" />
+                <Sun className="h-4 w-4 text-blue-500" />
               ) : (
                 <Moon className="h-4 w-4 text-gray-600 dark:text-gray-300" />
               )}
@@ -282,7 +282,7 @@ export const Navigation = ({ onLogout }: NavigationProps) => {
           <div className="md:hidden flex items-center space-x-2">
             <Button variant="ghost" size="sm" onClick={toggleDarkMode}>
               {isDarkMode ? (
-                <Sun className="h-4 w-4 text-yellow-500" />
+                <Sun className="h-4 w-4 text-blue-500" />
               ) : (
                 <Moon className="h-4 w-4 text-gray-600 dark:text-gray-300" />
               )}
