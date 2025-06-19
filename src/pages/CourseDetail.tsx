@@ -43,7 +43,7 @@ const CourseDetail = () => {
       title: "Complete JavaScript Mastery",
       description: "Master JavaScript from basics to advanced concepts with hands-on projects and real-world applications. This comprehensive course covers everything you need to become a proficient JavaScript developer.",
       instructor: {
-        name: "Sarah Johnson",
+        name: "Indira Aryee",
         avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=64&h=64&fit=crop&crop=face",
         bio: "Senior Full Stack Developer with 8+ years of experience at Google and Microsoft",
         students: 45000,
@@ -492,7 +492,7 @@ const CourseDetail = () => {
   const reviews = [
     {
       id: 1,
-      user: "Mike Chen",
+      user: "Raphael Senyo",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face",
       rating: 5,
       date: "2 weeks ago",
@@ -501,7 +501,7 @@ const CourseDetail = () => {
     },
     {
       id: 2,
-      user: "Emma Rodriguez",
+      user: "Efua Oforiwah",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face",
       rating: 5,
       date: "1 month ago",
@@ -928,7 +928,7 @@ const CourseDetail = () => {
                 {[1, 2, 3].map((item) => (
                   <div key={item} className="flex space-x-3 p-3 rounded-lg hover:bg-muted/50 cursor-pointer">
                     <img 
-                      src={`https://images.unsplash.com/photo-148859${8000 + item}-random?w=80&h=60&fit=crop`}
+                      src={`https://repository-images.githubusercontent.com/657736250/efe020c3-cfc2-41f9-be41-ad581ffc9969`}
                       alt="Course thumbnail"
                       className="w-16 h-12 object-cover rounded"
                     />

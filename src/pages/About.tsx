@@ -88,7 +88,7 @@ const About = () => {
     },
     {
       name: "Sharon Naa Sowah",
-      role: "Talent Acquisition Manager",
+      role: "Human Resource Manager",
       bio: "Human Resources specialist focused on creating inclusive work environments and fostering talent development. Expert in team building and organizational culture.",
       image: "../../assets/naa.jpg",
       skills: ["Team Building", "Recruitment", "Training", "Culture"]

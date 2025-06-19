@@ -36,7 +36,7 @@ export const ShoppingCartComponent = () => {
       originalPrice: 199.99,
       type: 'course',
       instructor: "John Smith",
-      thumbnail: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=100&h=60&fit=crop",
+      thumbnail: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/310914436/original/d056a443bda9716a2d42b67b18ef36b4647b52f6/develop-your-custom-website-with-nextjs-react-html.png",
       quantity: 1
     },
     {
@@ -56,7 +56,7 @@ export const ShoppingCartComponent = () => {
       originalPrice: 179.99,
       type: 'course',
       instructor: "Dr. Sarah Wilson",
-      thumbnail: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=100&h=60&fit=crop",
+      thumbnail: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230318230239/Python-Data-Science-Tutorial.jpg",
       quantity: 1
     },
     {
@@ -66,7 +66,7 @@ export const ShoppingCartComponent = () => {
       originalPrice: 189.99,
       type: 'course',
       instructor: "Michael Chen",
-      thumbnail: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=100&h=60&fit=crop",
+      thumbnail: "https://i.ytimg.com/vi/Pyv0tMm5i_w/maxresdefault.jpg",
       quantity: 1
     }
   ]);
