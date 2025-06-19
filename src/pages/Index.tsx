@@ -38,7 +38,7 @@ const Index = () => {
       price: 89.99,
       originalPrice: 199.99,
       duration: "24h 30m",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop",
+      image: "https://i.ytimg.com/vi/Pyv0tMm5i_w/maxresdefault.jpg",
       level: "Beginner",
       category: "Web Development",
       isFree: false
@@ -53,7 +53,7 @@ const Index = () => {
       students: 8921,
       price: 0,
       duration: "18h 45m",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop",
+      image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230318230239/Python-Data-Science-Tutorial.jpg",
       level: "Intermediate",
       category: "Data Science",
       isFree: true
@@ -69,7 +69,7 @@ const Index = () => {
       price: 79.99,
       originalPrice: 149.99,
       duration: "32h 15m",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=250&fit=crop",
+      image: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/310914436/original/d056a443bda9716a2d42b67b18ef36b4647b52f6/develop-your-custom-website-with-nextjs-react-html.png",
       level: "Advanced",
       category: "Frontend",
       isFree: false
