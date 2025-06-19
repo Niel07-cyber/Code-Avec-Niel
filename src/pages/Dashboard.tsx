@@ -29,42 +29,42 @@ const Dashboard = () => {
 
   const stats = [
     { label: "Courses Completed", value: 12, icon: BookOpen, color: "text-blue-500" },
-    { label: "Hours Studied", value: 89, icon: Clock, color: "text-green-500" },
-    { label: "Certificates Earned", value: 8, icon: Award, color: "text-purple-500" },
-    { label: "Current Streak", value: 15, icon: TrendingUp, color: "text-orange-500" }
+    { label: "Hours Studied", value: 120, icon: Clock, color: "text-green-500" },
+    { label: "Certificates Earned", value: 3, icon: Award, color: "text-purple-500" },
+    { label: "Current Streak", value: 20, icon: TrendingUp, color: "text-orange-500" }
   ];
 
   const enrolledCourses = [
     {
       id: 1,
       title: "Complete JavaScript Mastery",
-      instructor: "Sarah Johnson",
+      instructor: "Emmanuel Kodi",
       progress: 75,
       totalLessons: 156,
       completedLessons: 117,
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      image: "https://i.ytimg.com/vi/Pyv0tMm5i_w/maxresdefault.jpg",
       lastAccessed: "2 hours ago",
       nextLesson: "Advanced Array Methods"
     },
     {
       id: 2,
       title: "Python for Data Science",
-      instructor: "Dr. Michael Chen",
+      instructor: "Dr. Joshua Ne pas La",
       progress: 45,
       totalLessons: 98,
       completedLessons: 44,
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230318230239/Python-Data-Science-Tutorial.jpg",
       lastAccessed: "1 day ago",
       nextLesson: "Pandas DataFrame Operations"
     },
     {
       id: 3,
       title: "React & Next.js Complete Guide",
-      instructor: "Alex Rodriguez",
+      instructor: "Spencer Baiden",
       progress: 20,
       totalLessons: 201,
       completedLessons: 40,
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=300&h=200&fit=crop",
+      image: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/310914436/original/d056a443bda9716a2d42b67b18ef36b4647b52f6/develop-your-custom-website-with-nextjs-react-html.png",
       lastAccessed: "3 days ago",
       nextLesson: "Component Lifecycle"
     }
