@@ -64,7 +64,7 @@ export const Hero3D = () => {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <motion.h2 
-            className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 via-green-600 to-blue-600 bg-clip-text text-transparent mb-4"
+            className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 via-blue-600 to-blue-600 bg-clip-text text-transparent mb-4"
             animate={{ 
               backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] 
             }}

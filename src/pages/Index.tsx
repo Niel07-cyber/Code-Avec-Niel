@@ -115,7 +115,7 @@ const Index = () => {
               </motion.div>
               
               <motion.h1 
-                className="text-4xl lg:text-6xl font-bold mb-6 leading-tight"
+                className="text-4xl lg:text-6xl font-bold mb-6 leading-tight text-white"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 1 }}
@@ -237,8 +237,8 @@ const Index = () => {
             viewport={{ once: true }}
           >
             <VideoPlayer 
-              src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-              poster="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=450&fit=crop"
+              src="https://videocdn.cdnpk.net/videos/5033e18e-2afd-5748-b36c-7213499e9638/horizontal/previews/watermarked/large.mp4"
+              poster="https://coderpad.io/wp-content/uploads/2021/05/coderpad-ide-screenshot.jpg"
               title="Interactive Coding Environment Demo"
               className="max-w-4xl mx-auto h-96"
             />
@@ -488,7 +488,7 @@ const Index = () => {
               </motion.div>
             </Link>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10 dark:text-white">
                 Get Premium Access
               </Button>
             </motion.div>
