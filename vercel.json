@@ -1,4 +1,11 @@
 {
-  "installCommand": "npm install --no-optional",
-  "buildCommand":   "npm run build"
+  "builds": [
+    {
+      "src": "vercel-build.sh",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ]
 }
