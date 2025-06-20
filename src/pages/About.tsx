@@ -42,8 +42,8 @@ const About = () => {
   };
 
   const stats = [
-    { icon: Users, label: "Students", value: "100K+", color: "text-blue-600" },
-    { icon: Award, label: "Courses", value: "50+", color: "text-green-600" },
+    { icon: Users, label: "Students", value: "50K+", color: "text-blue-600" },
+    { icon: Award, label: "Courses", value: "500+", color: "text-green-600" },
     { icon: Globe, label: "Countries", value: "120+", color: "text-purple-600" },
     { icon: Heart, label: "Success Rate", value: "95%", color: "text-red-600" }
   ];
